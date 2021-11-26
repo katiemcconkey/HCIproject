@@ -4,41 +4,116 @@
     <head>
         <link rel="stylesheet" href="main.css"> 
         <p style="text-align:center">
-        <h1>Green Fridge</h1>
+            <div class="row">
+                <div class="column">
+                    <img src="assets/greenfridge.png"style="height:60px; width: 60px;">
+                </div>
+                <div class="column">    
+                    <h1>Green Fridge</h1>
+                </div>
+                <div class="column">
+                    <img src="assets/greenfridge.png"style="height:60px; width: 60px;">
+                </div>
+            </div>
+        
         </p>
+
     </head>
     <body>
-        <p style="size: 60px;">
-            Weekly Challenges
-        </p>
-        <input type="radio" id= "challenge1" style="border-color: #68AD36;">
-        <label for="challenge1">Try completing a full day of eating vegan food to earn your food hero badge</label>
-        <div>
-
+        <div class="row">
+            <div class="column" style="border-color: #385E1D;">
+                <h2>
+                    Weekly Challenges
+                </h2>
+                <p>
+                    <input type="radio" id= "challenge1" style="border-color: #68AD36;">
+                    <label for="challenge1">Try completing a full day of eating vegan food to earn your food hero badge</label>
+                    <div></div>
+                    <input type="radio" id= "challenge2" style="border-color: #68AD36;">
+                    <label for="challenge2">Try to reduce your food waste by 50% to earn your eco warrior badge</label>
+                    <div></div>
+                    <input type="radio" id= "challenge3" style="border-color: #68AD36;">
+                    <label for="challenge3">Go zero waste for a full day to earn your save the turtles badge</label>
+                </p> 
+            </div>
+            <div class="column" style="border-color: #385E1D;">
+                <h2>
+                    Badges
+                </h2>
+                <p>
+                    <a href="badge1.html"><img src="assets\veg.png" style="height:60px; width: 60px;"></a>
+                    <a href="badge2.html"><img src="assets\reuse.png" style="height:60px; width: 60px;"></a>
+                    <a href="badge3.html"><img src="assets\redmeat.jpg" style="height:60px; width: 60px;"></a>
+                    <a href="badge4.html"><img src="assets\waste.jpg" style="height:60px; width: 60px;"></a>
+                    <div></div>
+                    <img src="assets\lock.jpg" style="height:60px; width: 60px;"></a>
+                    <img src="assets\lock.jpg" style="height:60px; width: 60px;"></a>
+                    <img src="assets\lock.jpg" style="height:60px; width: 60px;"></a>
+                    <img src="assets\lock.jpg" style="height:60px; width: 60px;"></a>
+                </p>
+            </div>
         </div>
-        <input type="radio" id= "challenge2" style="border-color: #68AD36;">
-        <label for="challenge2">Try to reduce your food waste by 50% to earn your eco warrior badge</label>
-        <div>
+        <div class="table">
+        <h2>
+            Leaderboard
+        </h2>
+        <style>
+            table, th, td{
+                border: 1px #385E1D;
+            }
             
+        </style>
+        <table style="width:85%; padding:10px;  text-align: center;" >
+            <tr>
+                <th>Household</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" Style="background-color: #68AD36; border-radius: 4px;">Izzy</button>
+                </td>
+                <td>
+                    500
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" Style="background-color: #68AD36; border-radius: 4px;">Me</button>
+                </td>
+                <td>
+                    350
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" Style="background-color: #68AD36; border-radius: 4px;">Mark</button>
+                </td>
+                <td>
+                    300
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" Style="background-color: #68AD36; border-radius: 4px;">Lewis</button>
+                </td>
+                <td>
+                    150
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" Style="background-color: #68AD36; border-radius: 4px;">Cynthia</button>
+                </td>
+                <td>
+                    50
+                </td>
+            </tr>
+            
+        </table>
         </div>
-        <input type="radio" id= "challenge3" style="border-color: #68AD36;">
-        <label for="challenge3">Go zero waste for a full day to earn your save the turtles badge</label>
-        <p>
-            Your badges
-        </p>
-        <a href="badge1.html"><img src="assets\veg.png" style="height:60px; width: 60px;"></a>
-        <a href="badge2.html"><img src="assets\reuse.png" style="height:60px; width: 60px;"></a>
-        <a href="badge3.html"><img src="assets\redmeat.jpg" style="height:60px; width: 60px;"></a>
-        <a href="badge4.html"><img src="assets\waste.jpg" style="height:60px; width: 60px;"></a>
 
-        <p>
-            Check out how your friends are doing
-        </p>
-        <button type="button" Style="background-color: #68AD36; border-radius: 4px;">Izzy</button>
-        <button type="button" Style="background-color: #68AD36; border-radius: 4px;">Mark</button>
-        <button type="button" Style="background-color: #68AD36; border-radius: 4px;">Lewis</button>
-        <button type="button" Style="background-color: #68AD36; border-radius: 4px;">Cynthia</button>
-        <div class="navbar">
+    
+        <div class="navbar" class="light-theme">
         <a href="Homepage.html"><img src="assets\home.png"></a>
         <a href="fridge.html"><img src="assets\fridge.png"></a>
         <a href="shoppingList.html"><img src="assets\shopping.png"></a>

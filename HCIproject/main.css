@@ -1,13 +1,14 @@
 body {
 
-    font-family: monospace;
+    font-family: Calibri;
     text-align: center;
     font-size: 25;
+
 }
 
 h1 {
-    font-family: monospace;
-    font-size: 40;
+    font-family: Calibri;
+    font-size: 60;
     color: #385E1D;
     text-align: center;
 }
@@ -16,8 +17,7 @@ ul {
     font-size: helvetica;
 }
  .light-theme {
-     color : black;
-     background : white;
+     background : #e2f8d3;
      
  }
 
@@ -54,4 +54,17 @@ ul {
 		display: inline-block;
 		text-align:center;
 		width: 90px;
+}
+
+.column{
+    flex:50%;
+    
+}
+
+.row{
+    display: flex;
+}
+
+.table{
+    text-align: center;
 }

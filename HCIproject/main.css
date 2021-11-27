@@ -68,3 +68,7 @@ ul {
 .table{
     text-align: center;
 }
+
+.cheese{
+    visibility: hidden;
+}
